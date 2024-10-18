@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-image: url('https://wallpapercave.com/wp/wp3490408.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Navigation Bar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(0,0,0,0.8), rgba(255,165,0,0.8));
+    padding: 15px 0;
+    z-index: 10;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 30px;
+    transition: all 0.3s ease;
+}
+
+.nav-links a:hover {
+    background-color: #ffcc00;
+    color: black;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+}
+
+/* Profile Section */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 100px 20px 50px;
+}
+
+.profile {
+    margin-left: 50px;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    object-fit: cover;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Message Input Section */
+#message-input {
+    display: flex;
+    justify-content: flex-start;
+    padding: 50px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.message-input {
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    border: 2px solid #ffcc00;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.save-btn {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.save-btn:hover {
+    background-color: #ffa500;
+}
+
+/* Contact Section */
+#contact {
+    padding: 50px;
+    text-align: center;
+}
